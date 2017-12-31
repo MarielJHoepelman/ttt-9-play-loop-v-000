@@ -37,7 +37,5 @@ end
 
 def play(board)
   9.times do #{turn(board)}
-    until #{display_board(board)} == "X"
-    end
   end
 end
