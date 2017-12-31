@@ -38,4 +38,5 @@ end
 def play(board)
   loop 9 .times do
     turn(board)
+  end
 end
