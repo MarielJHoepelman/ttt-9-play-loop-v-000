@@ -36,8 +36,6 @@ def turn(board)
 end
 
 def play(board)
-  9 .times do
+  loop 9 .times do
     turn(board)
-    until !turn(board)
-  end
 end
