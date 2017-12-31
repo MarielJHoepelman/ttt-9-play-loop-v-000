@@ -35,4 +35,10 @@ def turn(board)
   end
 end
 
-# Define your play method below
+def play(board)
+  9.times.do
+    move(board, index)
+    if !position_taken?
+      break
+  end
+end 
