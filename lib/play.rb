@@ -36,10 +36,7 @@ def turn(board)
 end
 
 def play(board)
-    while turn(board) < 9
-      puts "Please enter 1-9:"
-      if !position_taken?(board, location)
-        break
-      end
+    loop do
+      turn(board) 9. times do
     end
 end
