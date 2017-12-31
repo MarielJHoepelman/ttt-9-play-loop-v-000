@@ -40,5 +40,5 @@ def play(board)
     move(board, index)
     if !position_taken?
       break
-  end
-end 
+    end
+end
