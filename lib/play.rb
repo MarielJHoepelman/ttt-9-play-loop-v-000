@@ -37,4 +37,5 @@ end
 
 def play(board)
   (1..9).times do #{turn(board)}
+  end
 end
