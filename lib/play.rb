@@ -37,6 +37,7 @@ end
 
 def play(board)
   9.times do #{turn(board)}
-    puts "Please enter 1-9:"
+    until  #{display_board(board)} == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+    end
   end
 end
