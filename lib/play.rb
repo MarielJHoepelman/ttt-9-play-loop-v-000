@@ -37,6 +37,6 @@ end
 
 def play(board)
   9.times do #{turn(board)}
-    until #{display_board == "X", "X", "X", "X", "X", "X", "X", "X", "X"}
+    until #{position_taken?(board, location) == true}
   end
 end
