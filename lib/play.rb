@@ -36,9 +36,10 @@ def turn(board)
 end
 
 def play(board)
-  9.times.do
-    move(board, index)
-    if !position_taken?
+  9.times do
+    turn(board)
+    if !turn(board)
       break
     end
+  end
 end
