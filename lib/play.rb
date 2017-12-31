@@ -37,5 +37,6 @@ end
 
 def play(board)
   9.times do #{turn(board)}
+    puts "Please enter 1-9:"
   end
 end
