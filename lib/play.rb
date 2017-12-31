@@ -36,6 +36,6 @@ def turn(board)
 end
 
 def play(board)
-  turn(board) 9.times do
+   9.times do {turn(board)}
   end
 end
